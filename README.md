@@ -50,9 +50,20 @@ It integrates:
   - "Any overdue tasks?"
 - Uses RAG + Ollama for responses
 
+
 ---
 
 ## ⚙️ Setup Instructions
+
+### Create Virtual Environment 
+- python -m venv E2M
+- E2M\Scripts\activate
+
+### Run Backend (FastAPI)
+- uvicorn main:app --reload
+
+### Run Frontend (Streamlit)
+- streamlit run app.py
 
 ### 1. Clone Repository
 ```bash
